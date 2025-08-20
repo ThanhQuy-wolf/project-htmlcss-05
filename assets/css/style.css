@@ -191,13 +191,14 @@ form {
     left: 23px;
     top: 50%;
     transform: translateY(-50%);
+    padding: 8px;
     color: var(--second-color-gray);
     background: var(--text-color-white);
     transition: translate 0.2s ease;
 }
 
 form [type="email"]:focus + label {
-    translate: 0 -35px;
+    translate: 0 -38px;
 }
 
 .hero--btn {
