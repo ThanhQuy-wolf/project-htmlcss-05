@@ -202,3 +202,105 @@ form [type="email"]:focus + label {
     white-space: nowrap;
     background: var(--second-color-violet);
 }
+
+.hero--sub-btn {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.72; /* 171.429% */
+    color: #696D76;
+}
+
+.hero__app {
+    position: relative;
+    margin-left: 160px;
+    margin-top: 76px;
+}
+
+.hero--sub-app {
+    position: absolute;
+}
+
+.hero--sub-app.deposite {
+    top: 113px;
+    left: -100px;
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 46px;
+    flex-shrink: 0;
+    padding: 14px 10px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.07);
+    background: var(--text-color-white);
+    z-index: 1;
+}
+
+.text-deposite {
+    margin-left: 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #31456A;
+}
+
+.amount-deposite {
+    margin-left: 19px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #4AB5E3;
+}
+
+.hero--sub-app.interest {
+    right: -174px;
+    top: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #DA6464;
+    z-index: 1;
+}
+
+.persent-interest {
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: var(--text-color-white);
+}
+
+.text-interest {
+    font-weight: 400;
+    color: #FFF;
+}
+
+.hero--sub-app.security {
+    right: -74px;
+    bottom: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    width: 124px;
+    height: 68px;
+    padding: 20px 14px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #439F90;
+    z-index: 1;
+} 
+
+.amount-security {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color-white);
+}
+
+.text-security {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #FFF;
+}

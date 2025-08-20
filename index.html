@@ -4,6 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CeloBank</title>
+        <!-- Animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <!-- Icon -->
         <link
             rel="stylesheet"
@@ -160,11 +165,65 @@
                                 Get Started
                             </button>
                         </form>
+
+                        <p class="hero--sub-btn">
+                            *We'll respect the inbox and never share your email.
+                        </p>
                     </article>
 
-                    <figure class="hero__images"></figure>
+                    <figure class="hero__app">
+                        <img
+                            src="./assets/img/Mobile Screen.svg"
+                            alt="Mobile Screen"
+                            class="hero--mobile-screen"
+                        />
+
+                        <div
+                            class="hero--sub-app deposite"
+                            data-aos="fade-down"
+                            data-aos-once="true"
+                        >
+                            <img
+                                src="./assets/img/icon-download.svg"
+                                alt="Download"
+                                class="icon-deposite"
+                            />
+                            <p class="text-deposite">Deposite</p>
+                            <span class="amount-deposite">$32000</span>
+                        </div>
+
+                        <div
+                            class="hero--sub-app interest"
+                            data-aos="fade-left"
+                            data-aos-once="true"
+                        >
+                            <span class="persent-interest">0%</span>
+                            <p class="text-interest">Interest</p>
+                        </div>
+
+                        <div
+                            class="hero--sub-app security"
+                            data-aos="fade-up"
+                            data-aos-once="true"
+                        >
+                            <img
+                                src="./assets/img/icon-security.svg"
+                                alt="Protected"
+                                class="icon-security"
+                            />
+                            <div class="col-security">
+                                <span class="amount-security">$1.310</span>
+                                <p class="text-security">SECURED FUNDS</p>
+                            </div>
+                        </div>
+                    </figure>
                 </div>
             </section>
         </main>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
