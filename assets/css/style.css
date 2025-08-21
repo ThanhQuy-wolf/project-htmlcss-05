@@ -591,3 +591,150 @@ form [type="email"]:focus + label {
     gap: 18px;
     margin-top: 20px;
 }
+
+/* ============ Comment ============ */
+.comment__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment--title {
+    margin-top: 12px;
+}
+
+.comment--desc {
+    width: 38%;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.comment__blockquote {
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+blockquote {
+    position: relative;
+}
+
+.blockquote__cover {
+    width: 570px;
+    flex-shrink: 0;
+    padding: 42px 28px;
+    border: 1px solid #DFE2E8;
+    border-radius: 10px;
+    background: var(--text-color-white);
+}
+
+.blockquote--text {
+    text-align: center;
+    font-size: 2.2rem;
+    font-style: italic;
+    line-height: 1.55; /* 154.545% */
+    color: var(--second-color-gray);
+}
+
+.blockquote--cover {
+    position: absolute;
+    bottom: -118px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 60px;
+    height: 60px;
+    border: 60px solid transparent;
+    border-top-color: #DFE2E8;
+}
+
+.blockquote__cover:hover {
+    border: none;
+    box-shadow: 0 22px 54px rgba(0, 0, 0, 0.07);
+}
+
+.blockquote__cover:hover + .blockquote--cover {
+    border-top-color: #fff;
+}
+
+.comment__author {
+    display: flex;
+    gap: 440px;
+    margin-top: 126px;
+}
+
+.comment__avt-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment__avt-bg {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.comment__avt-bg.avt-1 {
+    background: #4AB5E3;
+}
+
+.commnet--avt.avt-1 {
+    width: 110px;
+    height: 180px;
+    object-fit: cover;
+    object-position: 53%;
+}
+
+.comment--author {
+    margin-top: 20px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.39; /* 138.462% */
+    color: #070052;
+}
+
+.comment--avt-job {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.667; /* 166.667% */
+    color: var(--second-color-gray);
+}
+
+.comment__avt-bg.avt-2 {
+    background: #439F90;
+}
+
+.comment--avt.avt-2 {
+    width: 120px;
+    height: 127px;
+    object-fit: cover;
+    object-position: 60%;
+}
+
+.comment__choose {
+    display: flex;
+    gap: 12px;
+    width: 90px;
+    height: 6px;
+    margin-top: 38px;
+}
+
+.comment--block-item {
+    cursor: pointer;
+    width: 22px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    border: 1px solid #9B9FAB;
+    transition: 0.2s ease;
+}
+
+.comment--block-item:hover {
+    background: var(--second-color-violet);
+}
+
+.comment--block-item:first-child {
+    background: var(--second-color-violet);
+}
