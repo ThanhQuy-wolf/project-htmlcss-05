@@ -130,7 +130,7 @@
         </header>
 
         <!-- Main -->
-        <main class="main" style="height: 7000px">
+        <main class="main">
             <!-- Hero -->
             <section class="main__hero">
                 <div class="hero__container container">
@@ -153,9 +153,9 @@
                                 class="hero--input"
                                 required
                                 autocomplete="email"
-                                id="email"
+                                id="email-hero"
                             />
-                            <label for="email" class="hero--label"
+                            <label for="email-hero" class="hero--label"
                                 >Your email address</label
                             >
                             <button
@@ -696,13 +696,101 @@
                         </a>
                     </div>
 
-                    <img src="./assets/img/icon-star.svg" alt="" class="cta--bg top-left">
-                    <img src="./assets/img/icon-star.svg" alt="" class="cta--bg top-right">
-                    <img src="./assets/img/icon-star.svg" alt="" class="cta--bg bottom-left">
-                    <img src="./assets/img/icon-star.svg" alt="" class="cta--bg bottom-right">
+                    <img
+                        src="./assets/img/icon-star.svg"
+                        alt=""
+                        class="cta--bg top-left"
+                    />
+                    <img
+                        src="./assets/img/icon-star.svg"
+                        alt=""
+                        class="cta--bg top-right"
+                    />
+                    <img
+                        src="./assets/img/icon-star.svg"
+                        alt=""
+                        class="cta--bg bottom-left"
+                    />
+                    <img
+                        src="./assets/img/icon-star.svg"
+                        alt=""
+                        class="cta--bg bottom-right"
+                    />
                 </div>
             </section>
         </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__logo">
+                    <img
+                        src="./assets/img/Logo.png"
+                        alt="Logo"
+                        class="footer--logo"
+                    />
+                    <img
+                        src="./assets/img/CeloBank.svg"
+                        alt="Celo Bank"
+                        class="footer--celobank"
+                    />
+                </div>
+
+                <ul class="footer__list first">
+                    <li class="footer--item heading">Sitemap</li>
+                    <li class="footer--item">Home</li>
+                    <li class="footer--item">Abouts</li>
+                    <li class="footer--item">Growers</li>
+                    <li class="footer--item">Merchants</li>
+                    <li class="footer--item">Contact</li>
+                </ul>
+
+                <ul class="footer__list">
+                    <li class="footer--item heading">Socials</li>
+                    <li class="footer--item">Facebook</li>
+                    <li class="footer--item">Linkedin</li>
+                    <li class="footer--item">Instagram</li>
+                    <li class="footer--item">Twitter</li>
+                </ul>
+
+                <ul class="footer__list">
+                    <li class="footer--item heading">Head Office</li>
+                    <li class="footer--item">
+                        Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22,
+                        Charlottesville, CA 45565
+                    </li>
+
+                    <li class="footer--item heading" id="form">News letter</li>
+
+                    <li class="footer--item">
+                        <form action="#!">
+                            <input
+                                type="email"
+                                class="footer--input"
+                                required
+                                autocomplete="email"
+                                id="email-footer"
+                                placeholder="Email address..."
+                            />
+
+                            <button
+                                type="submit"
+                                class="footer--btn text-btn bg-btn">
+                                Subscribe
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__contact container">
+                <a href="mailto:email@gmail.com" class="footer-email">email@gmail.com</a>
+                <a href="telto:1234567890" class="footer-tel">(123) 456-7890</a>
+            </div>
+
+            <div class="footer--copy-right">
+                <p class="footer--text-copy-right">© 2020 Ligft Media All rights reserved.</p>
+            </div>
+        </footer>
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
